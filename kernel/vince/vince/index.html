@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Primary Meta Tags -->
+  <title>KryPtoN Project | Downloads</title>
+  <meta name="title" content="KryPtoN Project | Downloads">
+  <meta name="description" content="KryPtoN Project | Downloads">
+  <link rel="shortcut icon" href="/asset/img/icon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <meta content="utf-8" http-equiv="encoding">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Product+Sans" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+  <link rel="stylesheet" href="/static/css/styles.css">
+  <meta name="msapplication-TileColor" content="#D50000">
+  <meta name="theme-color" content="#D50000">
+
+
+  <script src="/static/js/theme.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  
+
+  
+</head>
+
+<body>
+<!-- NAVBAR -->
+<div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large left"><i
+          class="material-icons left">menu</i></a>
+      </div>
+  </nav>
+</div>
+<div id="app">
+  <ul id="slide-out" class="sidenav">
+    <div>
+      <a class="bar-logo center" href="/">
+        <img src="/asset/img/icon.png" width="100" height="100">
+        <h4 class="accent">KryPtoNProject</h4>
+      </a>
+
+      <div class="square searchbar">
+        <div class="search-wrapper">
+          <i class="material-icons is-s">search</i>
+          <input style="width: 80%" type="text" v-model="search"
+            placeholder="Type your device... " />
+        </div>
+      </div>
+      <h6 class="accent" style="margin-left: 12px;">Kernel</h6>
+      <ul class="collapsible collapsible-accordion">
+          <li>
+            <div class="collapsible-header">
+              <i class="material-icons">phone_android</i>
+              <span style="width: 90%">Xiaomi</span>
+              <i class="material-icons">arrow_drop_down</i>
+            </div>
+
+            <div class="collapsible-body">
+              <ul>
+                  <li>
+                      <a href="/kernel/vince/">Redmi 5 Plus</a>
+                  </li>
+              </ul>
+            </div>
+          </li>
+      </ul>
+    </div>
+  </ul>
+  <!-- END NAVBAR -->
+
+  <!-- SETTINGS BUTTON -->
+  <a onclick="toogleMenu()" class="accent"><i id='settings' class="settings material-icons pointer">color_lens</i></a>
+  <div class="menu" style="display: none">
+    <h6 class="accent">COLOR ENGINE</h6>
+    <div class="line" style="margin-bottom: 12px;"></div>
+    <div>
+      <span class="accent">BACKGROUND</span>
+      <ul>
+        <li style="border: 1px solid #212121;background-color: #000" onclick="setBg(this)" class='colorview'></li>
+        <li style="background-color: #212121" onclick="setBg(this)" class='colorview'></li>
+        <li style="border: 1px solid black; background-color: #fff" onclick="setBg(this)" class='colorview'>
+        </li>
+      </ul>
+      <div style="clear: both"></div>
+    </div>
+    <div>
+      <span class="accent">COLOR</span>
+      <ul>
+        <li style="background-color: #D50000" onclick="setAccent(this)" class='colorview'></li>
+        <li style="background-color: #F34235" onclick="setAccent(this)" class='colorview'></li>
+        <li style="background-color: #E81E62" onclick="setAccent(this)" class='colorview'></li>
+        <li style="background-color: #9B26AF" onclick="setAccent(this)" class='colorview'></li>
+        <li style="background-color: #3E50B4" onclick="setAccent(this)" class='colorview'></li>
+        <li style="background-color: #02A8F3" onclick="setAccent(this)" class='colorview'></li>
+        <li style="background-color: #009587" onclick="setAccent(this)" class='colorview'></li>
+
+        <li style="background-color: #4BAE4F" onclick="setAccent(this)" class='colorview'></li>
+        <li style="background-color: #CCDB39" onclick="setAccent(this)" class='colorview'></li>
+        <li style="background-color: #FEC007" onclick="setAccent(this)" class='colorview'></li>
+        <li style="background-color: #FE9700" onclick="setAccent(this)" class='colorview'></li>
+        <li style="background-color: #FE5621" onclick="setAccent(this)" class='colorview'></li>
+
+        <li style="background-color: #76FF03" onclick="setAccent(this)" class='colorview'></li>
+        <li style="background-color: #6200EA" onclick="setAccent(this)" class='colorview'></li>
+        <li style="background-color: #0091EA" onclick="setAccent(this)" class='colorview'></li>
+        <li style="background-color: #A97CF0" onclick="setAccent(this)" class='colorview'></li>
+        <li style="background-color: #21EF8B" onclick="setAccent(this)" class='colorview'></li>
+        <li style="background-color: #EF4581" onclick="setAccent(this)" class='colorview'></li>
+
+      </ul>
+    </div>
+  </div>
+  <!-- END SETTINGS BUTTON -->
+
+
+  <!-- DEVICE INFO CARD -->
+    <h5 class="center upper-bold accent">Redmi 5 Plus Vince</h5>
+      <div class="row limiter">
+        <div class="col s12 m12">
+          <div class="builds cardColor z-depth-1">
+
+            <div class="deviceprop">
+                <i class="material-icons">domain</i>
+                <h6>Xiaomi</h6>
+            </div>
+
+            <div class="deviceprop">
+              <i class="material-icons">phone_android</i>
+              <h6>Redmi 5 Plus</h6>
+            </div>
+
+            <div class="deviceprop">
+              <i class="material-icons">device_unknown</i>
+              <h6>Vince</h6>
+            </div>
+
+            <div class="deviceprop">
+              <i class="material-icons">person_outline</i>
+              <h6>Kry9toN</h6>
+            </div>
+
+            <div class="card-action xda-buttons">
+              <a href="https://kry9ton.github.io" target="_blank" class="waves-effect waves-teal btn-flat"><i class="zmdi zmdi-github-alt left"></i>GitHub Profile</a>
+           </div>
+          </div>
+        </div>
+      </div>
+      <!-- END DEVICE INFO CARD -->
+
+      <!-- TABLE OF BUILDS -->
+      <div class="row center">
+          <div class="col s12 m12 center builds">
+            <h5>Kernel 4.9</h5>
+              <ul class="collapsible collapsible-builds">
+				
+				<li class="active">
+				  <div class="collapsible-header">
+					<i class="material-icons">system_update</i>
+					<span style="width: 100%">KryPtoN-PWR-20190604-1758.zip</span>
+					<i class="material-icons">arrow_drop_down</i>
+				  </div>
+
+				  <div class="collapsible-body">
+
+					<p class="label" >details</p>
+					<div class="buildinfo">
+					  <div class="deviceprop"><p>Filename: KryPtoN-PWR-20190604-1758.zip</p></div>
+					  <div class="deviceprop"><p>Date: 2019/06/04</p></div>
+					  <div class="deviceprop"><p>Size: 14.5 MB</p></div>
+					  <div class="deviceprop"><p>Version: PWR</p></div>
+					</div>
+
+					<div class='buildChangelog'>
+					  <p class="label">Changelog</p>
+					  <pre>
+						- Upstream to 4.9.180
+						- Merge tag LA.UM.7.6.2.r1-08700-89xx.0
+						- Update sound control
+						- add DTS:X Ultra
+						- I'm forgot
+					  </pre>
+					</div>
+
+					<div class="buildbuttons">
+					  <a href="https://userupload.net/3am75i8w2xca" download target="_blank" class="waves-effect waves-teal btn-flat"><i class="zmdi zmdi-download left"></i>Download</a>
+					</div>
+
+				  </div>
+
+				</li>
+
+                      <li>
+                        <div class="collapsible-header">
+                          <i class="material-icons">system_update</i>
+                          <span style="width: 100%">KryPtoN-PWR-20190501-2028.zip</span>
+                          <i class="material-icons">arrow_drop_down</i>
+                        </div>
+
+                        <div class="collapsible-body">
+
+                            <p class="label" >details</p>
+                            <div class="buildinfo">
+                                <div class="deviceprop"><p>Filename: KryPtoN-PWR-20190501-2028.zip</p></div>
+                                <div class="deviceprop"><p>Date: 2019/05/01</p></div>
+                                <div class="deviceprop"><p>Size: 14.4 MB</p></div>
+                                <div class="deviceprop"><p>Version: PWR</p></div>
+                            </div>
+
+                            <div class='buildChangelog'>
+                              <p class="label">Changelog</p>
+                                <pre>
+                                    - Upstream to 4.9.170 
+                                    - Add TCP congestion algorithm tsunami and scrable_re. tsunami is set to default 
+                                    - improve performance
+                                </pre>
+                            </div>
+
+                            <div class="buildbuttons">
+							  <a href="https://userupload.net/cuan8f7psg7y" download target="_blank" class="waves-effect waves-teal btn-flat"><i class="zmdi zmdi-download left"></i>Download</a>
+                            </div>
+
+                        </div>
+
+                      </li>
+
+                      <li>
+                          <div class="collapsible-header">
+                            <i class="material-icons">system_update</i>
+                            <span style="width: 100%">KryPtoN-PWR-20190422-1034.zip</span>
+                            <i class="material-icons">arrow_drop_down</i>
+                          </div>
+  
+                          <div class="collapsible-body">
+  
+                              <p class="label" >details</p>
+                              <div class="buildinfo">
+                                  <div class="deviceprop"><p>Filename: KryPtoN-PWR-20190422-1034.zip</p></div>
+                                  <div class="deviceprop"><p>Date: 2019/04/22</p></div>
+                                  <div class="deviceprop"><p>Size: 14.5 MB	</p></div>
+                                  <div class="deviceprop"><p>Version: PWR</p></div>
+                              </div>
+  
+                              <div class='buildChangelog'>
+                                <p class="label">Changelog</p>
+                                  <pre>
+                                      - Upstream to 4.9.171 
+                                      - Add usb fast charge mode 
+                                      - Enable intractive gov 
+                                      - I forgot other change
+                                  </pre>
+                              </div>
+  
+                              <div class="buildbuttons">
+								<a href="https://userupload.net/q0wbfcc18lzx" download target="_blank" class="waves-effect waves-teal btn-flat"><i class="zmdi zmdi-download left"></i>Download</a>
+                              </div>
+  
+                          </div>
+  
+                        </li>
+
+                        <li>
+                            <div class="collapsible-header">
+                              <i class="material-icons">system_update</i>
+                              <span style="width: 100%">KryPtoN-PWR-20190418-2250.zip</span>
+                              <i class="material-icons">arrow_drop_down</i>
+                            </div>
+    
+                            <div class="collapsible-body">
+    
+                                <p class="label" >details</p>
+                                <div class="buildinfo">
+                                    <div class="deviceprop"><p>Filename: KryPtoN-PWR-20190418-2250.zip</p></div>
+                                    <div class="deviceprop"><p>Date: 2019/04/18</p></div>
+                                    <div class="deviceprop"><p>Size: 14.3 MB</p></div>
+                                    <div class="deviceprop"><p>Version: PWR</p></div>
+                                </div>
+    
+                                <div class='buildChangelog'>
+                                  <p class="label">Changelog</p>
+                                    <pre>
+                                        - Upstream to 4.9.170 
+                                        - Add TCP congestion algorithm tsunami and scrable_re. tsunami is set to default 
+                                        - improve performance
+                                    </pre>
+                                </div>
+    
+                                <div class="buildbuttons">
+								  <a href="https://userupload.net/i6cubdnid2gc" download target="_blank" class="waves-effect waves-teal btn-flat"><i class="zmdi zmdi-download left"></i>Download</a>
+                                </div>
+    
+                            </div>
+    
+                          </li>
+
+                          <li>
+                              <div class="collapsible-header">
+                                <i class="material-icons">system_update</i>
+                                <span style="width: 100%">KryPtoN-PWR-Pie-vince-20190303-1118.zip</span>
+                                <i class="material-icons">arrow_drop_down</i>
+                              </div>
+      
+                              <div class="collapsible-body">
+      
+                                  <p class="label" >details</p>
+                                  <div class="buildinfo">
+                                      <div class="deviceprop"><p>Filename: KryPtoN-PWR-Pie-vince-20190303-1118.zip</p></div>
+                                      <div class="deviceprop"><p>Date: 2019/03/03</p></div>
+                                      <div class="deviceprop"><p>Size: 13.4 MB</p></div>
+                                      <div class="deviceprop"><p>Version: PWR</p></div>
+                                  </div>
+      
+                                  <div class='buildChangelog'>
+                                    <p class="label">Changelog</p>
+                                      <pre>
+                                          - Merge tag 'LA.UM.7.6.2.r1-07100-89xx.0' 
+                                          - CPU input boost 
+                                          - Fast charging 
+                                          - OC GPU (725MHz) 
+                                          - OC CPU (500MHz)
+                                      </pre>
+                                  </div>
+      
+                                  <div class="buildbuttons">
+									<a href="https://userupload.net/etwcwsp5tlef" download target="_blank" class="waves-effect waves-teal btn-flat"><i class="zmdi zmdi-download left"></i>Download</a>
+                                  </div>
+      
+                              </div>
+      
+                            </li>
+
+                </ul>
+
+          </div>
+        </div>
+
+        <div class="row center">
+            <div class="col s12 m12 center builds">
+              <h5>Kernel 3.18</h5>
+                <ul class="collapsible collapsible-builds">
+  
+                        <li class="active">
+                          <div class="collapsible-header">
+                            <i class="material-icons">system_update</i>
+                            <span style="width: 100%">KryPtoN-PWR-20190405-2216.zip</span>
+                            <i class="material-icons">arrow_drop_down</i>
+                          </div>
+  
+                          <div class="collapsible-body">
+  
+                              <p class="label" >details</p>
+                              <div class="buildinfo">
+                                  <div class="deviceprop"><p>Filename: KryPtoN-PWR-20190405-2216.zip</p></div>
+                                  <div class="deviceprop"><p>Date: 2019/04/05</p></div>
+                                  <div class="deviceprop"><p>Size: 11.6 MB</p></div>
+                                  <div class="deviceprop"><p>Version: PWR</p></div>
+                              </div>
+  
+                              <div class='buildChangelog'>
+                                <p class="label">Changelog</p>
+                                  <pre>
+                                      - Upstream to 3.18.138 
+                                      - Improve performance 
+                                      - Add bfq I/O Scheduler and set default
+                                  </pre>
+                              </div>
+  
+                              <div class="buildbuttons">
+								<a href="https://userupload.net/iskvh4uavq87" download target="_blank" class="waves-effect waves-teal btn-flat"><i class="zmdi zmdi-download left"></i>Download</a>
+                              </div>
+  
+                          </div>
+  
+                        </li>
+  
+                        <li>
+                            <div class="collapsible-header">
+                              <i class="material-icons">system_update</i>
+                              <span style="width: 100%">KryPtoN-PWR-AOSP-Pie-vince-20190318-2134.zip</span>
+                              <i class="material-icons">arrow_drop_down</i>
+                            </div>
+    
+                            <div class="collapsible-body">
+    
+                                <p class="label" >details</p>
+                                <div class="buildinfo">
+                                    <div class="deviceprop"><p>Filename: KryPtoN-PWR-AOSP-Pie-vince-20190318-2134.zip</p></div>
+                                    <div class="deviceprop"><p>Date: 2019/03/18</p></div>
+                                    <div class="deviceprop"><p>Size: 11.6 MB</p></div>
+                                    <div class="deviceprop"><p>Version: PWR</p></div>
+                                </div>
+    
+                                <div class='buildChangelog'>
+                                  <p class="label">Changelog</p>
+                                    <pre>
+                                        - lastest linux version and CAF tags 
+                                        - add scaling governor : 
+                                        * Alucard 
+                                        * Electron 
+                                        * Darkness (Not set by default) 
+                                        - add KSM and UKSM 
+                                        - add Klapse 
+                                        - add Adreno idler 
+                                        - TCP algorithm westwood 
+                                        - better performance 
+                                        - adaptive LMK 
+                                        - sound control 
+                                        - screen LED control 
+                                        - add fingerprint boost driver 
+                                        - add implementation DTS headphone:X
+                                        Keep fiture :
+                                        
+                                        - OC CPU 200Mhz 
+                                        - Input bost CPU 
+                                        - Hotplug AutoSMP enable by default
+                                    </pre>
+                                </div>
+    
+                                <div class="buildbuttons">
+								  <a href="https://userupload.net/dn01w3dxla1q" download target="_blank" class="waves-effect waves-teal btn-flat"><i class="zmdi zmdi-download left"></i>Download</a>
+                                </div>
+    
+                            </div>
+    
+                          </li>
+  
+                          <li>
+                              <div class="collapsible-header">
+                                <i class="material-icons">system_update</i>
+                                <span style="width: 100%">KryPtoN-PWR-AOSP-Pie-vince-20190310-2248.zip</span>
+                                <i class="material-icons">arrow_drop_down</i>
+                              </div>
+      
+                              <div class="collapsible-body">
+      
+                                  <p class="label" >details</p>
+                                  <div class="buildinfo">
+                                      <div class="deviceprop"><p>Filename: KryPtoN-PWR-AOSP-Pie-vince-20190310-2248.zip</p></div>
+                                      <div class="deviceprop"><p>Date: 2019/03/10</p></div>
+                                      <div class="deviceprop"><p>Size: 11.6 MB</p></div>
+                                      <div class="deviceprop"><p>Version: PWR</p></div>
+                                  </div>
+      
+                                  <div class='buildChangelog'>
+                                    <p class="label">Changelog</p>
+                                      <pre>
+                                          - Hotplug 
+                                          - OC GPU (725MHz) maybe not working 
+                                          - OC CPU (200MHz)
+                                      </pre>
+                                  </div>
+      
+                                  <div class="buildbuttons">
+									<a href="https://userupload.net/abilcei9l8ak" download target="_blank" class="waves-effect waves-teal btn-flat"><i class="zmdi zmdi-download left"></i>Download</a>
+                                  </div>
+      
+                              </div>
+      
+                            </li>
+  
+                            <li>
+                                <div class="collapsible-header">
+                                  <i class="material-icons">system_update</i>
+                                  <span style="width: 100%">KryPtoN_-BLC-Pie-vince-20190217-1014.zip</span>
+                                  <i class="material-icons">arrow_drop_down</i>
+                                </div>
+        
+                                <div class="collapsible-body">
+        
+                                    <p class="label" >details</p>
+                                    <div class="buildinfo">
+                                        <div class="deviceprop"><p>Filename: KryPtoN_-BLC-Pie-vince-20190217-1014.zip</p></div>
+                                        <div class="deviceprop"><p>Date: 2019/02/17</p></div>
+                                        <div class="deviceprop"><p>Size: 11.6 MB</p></div>
+                                        <div class="deviceprop"><p>Version: BLC</p></div>
+                                    </div>
+        
+                                    <div class='buildChangelog'>
+                                      <p class="label">Changelog</p>
+                                        <pre>
+                                            - Hotplug 
+                                            - Merge latestes LA.UM.7.6.r1.04100-89xx.0 
+                                            - Base latest pie-caf 
+                                            - devfreq boost driver 
+                                            - forgot change
+                                        </pre>
+                                    </div>
+        
+                                    <div class="buildbuttons">
+									  <a href="https://userupload.net/jojeusvf27ul" download target="_blank" class="waves-effect waves-teal btn-flat"><i class="zmdi zmdi-download left"></i>Download</a>
+                                    </div>
+        
+                                </div>
+        
+                              </li>
+  
+                  </ul>
+  
+            </div>
+          </div>
+
+          <div class="row center">
+              <div class="col s12 m12 center builds">
+                <h5>Kernel MIUI</h5>
+                  <ul class="collapsible collapsible-builds">
+    
+                          <li class="active">
+                            <div class="collapsible-header">
+                              <i class="material-icons">system_update</i>
+                              <span style="width: 100%">KryPtoN-MIUI-PWR-20190524-1349.zip</span>
+                              <i class="material-icons">arrow_drop_down</i>
+                            </div>
+    
+                            <div class="collapsible-body">
+    
+                                <p class="label" >details</p>
+                                <div class="buildinfo">
+                                    <div class="deviceprop"><p>Filename: KryPtoN-MIUI-PWR-20190524-1349.zip</p></div>
+                                    <div class="deviceprop"><p>Date: 2019/05/24</p></div>
+                                    <div class="deviceprop"><p>Size: 13.2 MB</p></div>
+                                    <div class="deviceprop"><p>Version: PWR</p></div>
+                                </div>
+    
+                                <div class='buildChangelog'>
+                                  <p class="label">Changelog</p>
+                                    <pre>
+                                        - OC CPU 2.2GHz 
+                                        - OC GPU 750Mhz 
+                                        - Upstream to 3.18.140
+                                    </pre>
+                                </div>
+    
+                                <div class="buildbuttons">
+								  <a href="https://userupload.net/rjv2fky9hlcu" download target="_blank" class="waves-effect waves-teal btn-flat"><i class="zmdi zmdi-download left"></i>Download</a>
+                                </div>
+    
+                            </div>
+    
+                          </li>
+    
+                    </ul>
+    
+              </div>
+            </div>
+  
+        <!-- END TABLE OF BUILDS -->
+
+</div>
+
+  <!--Fload Buttom-->
+
+  <div class="fixed-action-btn">
+	<a class="btn-floating btn-large transparent">
+	  <i class="large material-icons">mode_edit</i>
+	</a>
+	<ul>
+	  <li><a onclick="toogleMenu()" class="btn-floating transparent"><i class="settings material-icons">color_lens</i></a></li>
+	  <li><a class="btn-floating transparent"><i class="material-icons">play_circle_outline</i></a></li>
+	</ul>
+  </div>
+
+  <!--End-->
+
+  <footer class="page-footer builds cardColor z-depth-1">
+	<div class="container">
+	  <div class="row">
+		<div class="col l6 s12">
+		  <h5 class="accent">KryPtoN Project</h5>
+		  <p>Try to meet your mobile needs.</p>
+		</div>
+		<div class="col l4 offset-l2 s12">
+		  <h5>Links</h5>
+		  <ul>
+			<li><a href="https://t.me/KKgrupofficial">Telegram Group</a></li>
+			<li><a href="https://t.me/KryPtoNKernel">Telegram Channel</a></li>
+			<li><a href="https://github.com/Kry9toN-Project">Github</a></li>
+		  </ul>
+		</div>
+	  </div>
+	</div>
+	<div class="footer-copyright">
+	  <div class="container accent">
+		© 2019 | KryPtoN Project
+		<a class="right" href="https://t.me/Kry9toN">Contact Me</a>
+	  </div>
+	</div>
+  </footer>
+
+</body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+      const collapsible = document.querySelectorAll('.collapsible');
+      M.Collapsible.init(collapsible);
+  </script>
+  <script src="/static/js/downloads.js"></script>
+</html>
